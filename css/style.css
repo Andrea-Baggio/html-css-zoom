@@ -49,6 +49,7 @@ body {
 
 main {
     border: 2px solid red;
+
     max-width: 1900px;
     margin: auto;
     height: calc(100vh - 50px - 70px); 
@@ -64,11 +65,14 @@ main {
     justify-content: space-between;
     flex-wrap: wrap;
     overflow-y: scroll;
+    gap: .5em;
 }
 
 .main-content {
     width: 150px;
     border: 2px solid gray;
+
+    flex-basis: calc(100% / 7 - 5px);
 }
 
 .main-content img {
