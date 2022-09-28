@@ -52,26 +52,22 @@ main {
 
     max-width: 1900px;
     margin: auto;
-    height: calc(100vh - 50px - 70px); 
+    height: calc(100vh - 50px - 70px);
+    overflow-y: scroll; 
 }
 
 .main-container {
-    border: 2px solid blue;
-
     margin: auto;
-    height: calc(100vh - 50px - 70px);
     width: 90%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    overflow-y: scroll;
+    
     gap: .5em;
 }
 
 .main-content {
-    width: 150px;
-    border: 2px solid gray;
-
+    min-width: 150px;
     flex-basis: calc(100% / 7 - 5px);
 }
 
