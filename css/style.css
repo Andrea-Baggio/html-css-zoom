@@ -17,6 +17,8 @@ body {
 /* header */
 
 .header-container {
+    margin: auto;
+    max-width: 1300px;
     height: 50px;
     display: flex;
     justify-content: flex-end;
@@ -44,3 +46,10 @@ body {
 
 /* main */
 
+.main-container {
+    border: 2px solid red;
+
+    margin: auto;
+    height: calc(100vh - 50px - 70px);  
+    width: 90%;
+}
